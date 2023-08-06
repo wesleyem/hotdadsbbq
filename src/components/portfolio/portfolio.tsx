@@ -1,10 +1,10 @@
 import PortfolioBox from "./portfolio-box";
-import full1 from "../../public/portfolio/thumbnails/1.png";
-import full2 from "../../public/portfolio/thumbnails/2.png";
-import full3 from "../../public/portfolio/thumbnails/3.png";
-import full4 from "../../public/portfolio/thumbnails/4.png";
-import full5 from "../../public/portfolio/thumbnails/5.png";
-import full6 from "../../public/portfolio/thumbnails/6.png";
+import full1 from "../../../public/portfolio/thumbnails/1.png";
+import full2 from "../../../public/portfolio/thumbnails/2.png";
+import full3 from "../../../public/portfolio/thumbnails/3.png";
+import full4 from "../../../public/portfolio/thumbnails/4.png";
+import full5 from "../../../public/portfolio/thumbnails/5.png";
+import full6 from "../../../public/portfolio/thumbnails/6.png";
 
 const portfolio = [
   {
