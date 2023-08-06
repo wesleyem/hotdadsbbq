@@ -9,12 +9,12 @@ const navClassStringShunk = navClassString + " navbar-shrink";
 export default function Navbar() {
   const [navClass, setNavClass] = useState(navClassString);
 
-  let ref = useRef(null);
+  const navButton = useRef<HTMLButtonElement>(null);
 
   // Value possibly null error, that's alright its reference is established once the
   // page is loaded.
   function navLinkClick() {
-    ref.current.click();
+    if (navButton.current) navButton.current.click();
   }
 
   useEffect(() => {
@@ -39,7 +39,7 @@ export default function Navbar() {
           Hot Dads BBQ | Rocklin, CA
         </a>
         <button
-          ref={ref}
+          ref={navButton}
           className="navbar-toggler navbar-toggler-right"
           type="button"
           data-bs-toggle="collapse"
