@@ -35,7 +35,13 @@ export default function Navbar() {
       {" "}
       <div className="container px-4 px-lg-5">
         <a className="navbar-brand" href="#page-top">
-          <Image className="img-fluid px-lg-1" src={favicon32} alt="logo" />
+          <Image
+            className="img-fluid px-lg-1"
+            src={favicon32}
+            width={40}
+            height={32}
+            alt="logo"
+          />
           Hot Dads BBQ | Rocklin, CA
         </a>
         <button
