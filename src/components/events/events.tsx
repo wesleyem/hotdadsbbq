@@ -9,14 +9,19 @@ export default function Events() {
             <h2 className="text-center mt-2">Upcoming</h2>
             <hr className="divider" />
             <Event
-              dateOrPlace="September 23rd, 2023"
-              eventName="12th Annual Sampolo Ct Rib Cookoff"
-              location="Citrus Heights, CA"
+              dateOrPlace="June 15th, 2024"
+              eventName="5th Annual Field of Slanted Dreams Rib Cook Off"
+              location="Penryn, CA"
             />
           </div>
           <div className="col-lg-6 text-center">
             <h2 className="text-center mt-2">Past Events</h2>
             <hr className="divider" />
+            <Event
+              dateOrPlace="September 23rd, 2023"
+              eventName="12th Annual Sampolo Ct Rib Cookoff"
+              location="Citrus Heights, CA"
+            />
             <Event
               dateOrPlace="2nd Place"
               eventName="4th Annual Slanted Field of Dreams Invitational Rib Cook-off"
