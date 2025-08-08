@@ -1,0 +1,23 @@
+.about-us {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background: var(--bbq-white);
+  border-radius: 10px;
+  box-shadow: var(--bbq-shadow-light);
+  border: 1px solid var(--bbq-warm);
+}
+.about-us h2 {
+  color: var(--bbq-primary);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--bbq-accent);
+  padding-bottom: 0.5rem;
+}
+.about-us p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--bbq-dark);
+  line-height: 1.6;
+}
+
+
