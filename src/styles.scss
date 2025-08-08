@@ -1,0 +1,15 @@
+@use '@angular/material' as mat;
+@use './app/styles/_theme-colors' as bbq-theme;
+
+html {
+  @include mat.theme((
+    color: (
+      primary: bbq-theme.$primary-palette,
+      tertiary: bbq-theme.$tertiary-palette,
+    ),
+    typography: Roboto,
+    density: 0,
+  ));
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
